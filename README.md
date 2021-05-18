@@ -4,15 +4,21 @@ with some library code and calls to it from an analysis notebook.
 
 ---
 
-**`analysis_package`** folder containing the library code in python modules
+### `analysis_package` 
+Folder containing the library code in python modules. Should be renamed to concisely represent the library.
 
-**`data`** folder containing the data
+### `data` 
+Folder containing the data.
 
-**`analysis.ipynb`** Notebook importing functions from the package, 
-creates results from data, contains interpretation of results
+### `analysis.ipynb`
+Notebook importing functions from the package, 
+creates results from data and contains the interpretation of results.
 
-**`.gitignore`** file to list stuff that should be ignored by git
+### `.gitignore`
+File to list stuff that should be ignored by git
 
-**`README.md`** file that is rendered by GitHub/GitLab when looking at the repo
+### `README.md`
+File that is rendered by GitHub/GitLab when looking at the repo
 
-**`environment.yml`** conda environment yml file to recreate the environment for the analysis
+### `environment.yml`
+Conda environment yml file to recreate the environment for the analysis
