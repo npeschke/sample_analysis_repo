@@ -1,0 +1,9 @@
+name: sample_analysis_env
+channels:
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.9
+  - scikit-learn
+  - seaborn
+  - jupyter
